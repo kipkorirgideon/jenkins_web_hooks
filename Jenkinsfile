@@ -9,6 +9,7 @@ pipeline{
         stage("Build"){
             steps{
                 echo "This is build stage"
+                echo "Hello world"
             }
         }
         stage("Deploy"){
