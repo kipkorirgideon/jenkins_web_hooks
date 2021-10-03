@@ -10,6 +10,7 @@ app.use(express.json())
 
 //importing routers
 require('./routes/routes')(app)
+console.log('HeLLO WORDL')
 
 
 //setting up templating engines
