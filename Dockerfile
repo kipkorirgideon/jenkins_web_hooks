@@ -10,6 +10,9 @@ COPY package*.json build /dev-app-1/
 
 RUN npm install
 
+RUN npm run build
+
+RUN npm run start
 
 EXPOSE 3000
 
