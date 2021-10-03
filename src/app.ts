@@ -7,6 +7,8 @@ const port = 3000
 //json data
 app.use(express.json())
 
+const data:string = 'web-hooks'
+
 
 //importing routers
 require('./routes/routes')(app)
