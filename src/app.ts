@@ -13,6 +13,8 @@ require('./routes/routes')(app)
 console.log('HeLLO WORDL')
 
 
+
+
 //setting up templating engines
 app.set('views', path.join(__dirname + path.sep +'views'))
 app.set('view engine', 'pug')
