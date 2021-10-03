@@ -12,6 +12,8 @@ var port = 3000;
 app.use(express_1.default.json());
 //importing routers
 require('./routes/routes')(app);
+console.log('HeLLO WORDL');
+console.log('Added github web hooks');
 //setting up templating engines
 app.set('views', path_1.default.join(__dirname + path_1.default.sep + 'views'));
 app.set('view engine', 'pug');
